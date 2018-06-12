@@ -12,16 +12,21 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+.derecha {
+	text-align: center;
+}
+
 textarea {
 	width: 70%;
-	height: 4em;
-	color: #4E4D53;
-	font-size: 15px;
+	height: 5em;
+	color: rgb(69, 69, 70);
+	font-size: 18px;
 	padding: 1em;
 	border-radius: 1em;
 	border: none;
     margin: 0 auto;
 }
+
 
 /* Estilos botón agregar */
 #btn {
@@ -34,4 +39,36 @@ textarea {
 	height: 30px;
 	display: block;
 	color: #FFF;
+}
+/* Estilos contenedor comentarios */
+#cont {
+	border-radius: 0.4em;
+	margin: 0 auto;
+	color: #4E4D53;
+	text-align: left;
+	margin-bottom: 6em;
+	padding: 0 16%;
+}
+
+#cont span {
+	margin-left: 1em;
+}
+
+#cont div {
+	padding: 1em 0.5em;
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+}
+
+.heart, .trash {
+	margin:1em;
+	float: right;
+	cursor: pointer;
+}
+
+
+p {
+	display: inline-block;
+	margin-left: 0.5em;
 }
