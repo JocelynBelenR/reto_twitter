@@ -26,8 +26,9 @@
     <div class="container">
       <div class="row"> 
           <div class="col-12">
-              <textarea class="txt" id="comment" placeholder="Escribe tu tweet..."></textarea>
-          </div>  
+              <textarea class="txt" id="comment" onfocus="limpia()" onKeyUp="cuenta()" placeholder="Escribe tu tweet..."></textarea>
+              <input type="text" name="total" size="5" maxlength="3" disabled>
+            </div>  
       </div>
       <div class="row">
           <div class="col-12">
@@ -40,7 +41,7 @@
             <!-- aca van lo comentarios del usuario-->
       </div>
     </div>
-    
+
   </section>
 
 

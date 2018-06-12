@@ -13,8 +13,8 @@ boton.addEventListener("click", () => {
     const newComments = document.createElement("div");
  
     //validar que el usuario no ingrese comentarios vacios
-    if(comments.length === 0 || comments === null){
-      alert("Debes ingresar un mensaje");
+    if(comments.length === 0 || comments === null) {
+      document.getElementById('btn').disabled=true;
     }
 
     //crear checkbox
@@ -40,4 +40,6 @@ boton.addEventListener("click", () => {
     newComments.appendChild(contenedorElemento);
 
     cont.appendChild(newComments);
+
+
 })
